@@ -31,6 +31,7 @@
             this.txtHoten = new System.Windows.Forms.TextBox();
             this.txtsdt = new System.Windows.Forms.TextBox();
             this.btnluu = new System.Windows.Forms.Button();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtHoten
@@ -51,18 +52,27 @@
             // 
             // btnluu
             // 
-            this.btnluu.Location = new System.Drawing.Point(637, 157);
+            this.btnluu.Location = new System.Drawing.Point(687, 148);
             this.btnluu.Name = "btnluu";
             this.btnluu.Size = new System.Drawing.Size(75, 23);
             this.btnluu.TabIndex = 2;
             this.btnluu.Text = "Lưu";
             this.btnluu.UseVisualStyleBackColor = true;
             // 
+            // txtEmail
+            // 
+            this.txtEmail.Location = new System.Drawing.Point(514, 148);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(100, 22);
+            this.txtEmail.TabIndex = 3;
+            this.txtEmail.Text = "Email";
+            // 
             // AddContactForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.btnluu);
             this.Controls.Add(this.txtsdt);
             this.Controls.Add(this.txtHoten);
@@ -78,5 +88,6 @@
         private System.Windows.Forms.TextBox txtHoten;
         private System.Windows.Forms.TextBox txtsdt;
         private System.Windows.Forms.Button btnluu;
+        private System.Windows.Forms.TextBox txtEmail;
     }
 }
