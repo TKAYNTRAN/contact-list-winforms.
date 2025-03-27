@@ -17,6 +17,12 @@ namespace ContactList
             InitializeComponent();
         }
 
-
+        private void AddContactForm_Load(object sender, EventArgs e)
+        {
+            Label lblInfo = new Label();
+            lblInfo.Text = "Thông tin bổ sung";
+            lblInfo.Location = new Point(10,100 );
+            this.Controls.Add( lblInfo );
+        }
     }
 }
