@@ -49,7 +49,6 @@
             this.BTNadd.TabIndex = 1;
             this.BTNadd.Text = "Thêm Liên Hệ";
             this.BTNadd.UseVisualStyleBackColor = true;
-            this.BTNadd.Click += new System.EventHandler(this.BTNadd_Click);
             // 
             // MainForm
             // 
