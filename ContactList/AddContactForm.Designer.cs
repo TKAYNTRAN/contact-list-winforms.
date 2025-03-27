@@ -78,6 +78,7 @@
             this.Controls.Add(this.txtHoten);
             this.Name = "AddContactForm";
             this.Text = "AddContactForm";
+            this.Load += new System.EventHandler(this.AddContactForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
